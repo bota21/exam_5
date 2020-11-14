@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   color: #4F5665;
   font-family: 'Rubik', sans-serif;
-  width: 100vw;
 }
 
 * {
@@ -217,7 +216,6 @@ a {
 
 .plan {
   background: #FBFBFB;
-  width: 100vw;
 }
 
 .plan_container {
@@ -321,6 +319,165 @@ a {
   background: #F53838;
   color: #fff;
 }
+.global{
+  background: #FBFBFB;
+}
+.global_title{
+  font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+color: #0B132A;
+}
+.global_text{
+  line-height: 30px;
+text-align: center;
+padding: 20px 0 156px;
+}
+.global_img{
+  width: 100%;
+}
+.global_icons{
+  margin-top: 36px;
+  display: flex;
+}
+.global_icons_icon{
+  width: 190px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.netflix{
+background: url(../img/netflix.svg) 50% no-repeat;
+}
+.reddit{
+  background: url(../img/reddit.svg) 50% no-repeat;
+}
+.amazon{
+  background: url(../img/amason.svg) 50% no-repeat;
+}
+.discord{
+  background: url(../img/discord.svg) 50% no-repeat;
+}
+.spotify{
+  background: url(../img/spotify.svg) 50% no-repeat;
+}
+.reviews{
+  background: #FBFBFB;
+}
+.reviews_title{
+  font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+color: #0B132A;
+padding: 124px 0 20px;
+}
+.reviews_text{
+  line-height: 30px;
+  text-align: center;
+}
+.reviews_wrappers{
+  padding: 77px 0 145px;
+  position: relative;
+}
+.reviews_wrappers_wrapper{
+  width: 400px;
+  min-height: 254px;
+  background: #FFFFFF;
+border: 2px solid #DDDDDD;
+border-radius: 10px;
+padding: 30px;
+margin-left: 50px;
+}
+.reviews_user{
+  display: flex;
+  align-items: center;
+}
+.reviews_user_name{
+  margin-left: 20px;
+}
+.reviews_user_name_title{
+  font-weight: 500;
+font-size: 18px;
+color: #0B132A;
+}
+.reviews_user_name_address{
+  font-size: 14px;
+  margin-top: 7px;
+}
+.reviews_user_star{
+  color: #0B132A;
+  padding-left: 108px;
+  position: relative;
+}
+.reviews_user_star::after{
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(../img/ic-star.svg) 50% no-repeat;
+  position: absolute;
+  left: 142px;
+  top: -2px;
+}
+.reviews_wrappers_wrapper_comment{
+  line-height: 30px;
+color: #0B132A;
+margin-top: 20px;
+}
+.slick-arrow{
+  width: 60px;
+  height: 60px;
+  border: 2px solid #F53838;
+  border-radius: 50%;
+ 
+}
+.slick-prev.slick-arrow{
+  background: url(../img/arrow-red.svg) 50% no-repeat;
+  left: 82%; 
+  top: 420px;
+}
+.slick-next.slick-arrow{
+  background: url(../img/arrow-red.svg) 50% no-repeat;  
+  left: 88%;
+  top: 390px;
+  transform: rotate(180deg);
+}
+
+.slick-prev.slick-arrow:hover{
+background: #F53838 url(../img/arrow-white.svg) 50% no-repeat;
+/* transform: rotate(180deg); */
+}
+.slick-next.slick-arrow:hover{
+  background: #F53838 url(../img/arrow-white.svg) 50% no-repeat;
+  transform: rotate(0);
+  }
+.slick-dots{
+  display: flex;
+}
+.slick-dots li{
+  width: 15px;
+height: 15px;
+background: #DDE0E4;
+border-radius: 50%;
+margin-bottom: 78px;
+}
+
+.slick-dots li button::before{
+  content: "";
+}
+.slick-dots li.slick-active button{
+  width: 25px;
+  height: 15px;
+  background: #F53838;
+  border-radius: 10px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 1560px) {
   .header_container {
@@ -331,7 +488,7 @@ a {
 @media screen and (max-width: 1360px) {
   .header_container {
     padding-left: 50px;
-    width: 100%;
+    /* width: 100vw; */
   }
   .header_menu {
     flex-direction: column;
@@ -368,7 +525,7 @@ a {
 
 @media screen and (max-width: 560px) {
   .header_container {
-    width: 100%;
+    width: 100vw;
   }
   .menu_item {
     margin-bottom: 10px;
