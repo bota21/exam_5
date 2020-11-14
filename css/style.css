@@ -618,6 +618,9 @@ footer {
 }
 
 @media screen and (max-width: 1360px) {
+  .container {
+    width: 80%;
+  }
   .header_menu {
     flex-direction: column;
     align-items: flex-start;
@@ -650,9 +653,6 @@ footer {
   .global_icons_icon {
     margin: 0 15px;
   }
-  .reviews_wrappers {
-    width: 80%;
-  }
   .reviews_wrappers_wrapper {
     margin-left: 25px;
   }
@@ -672,6 +672,26 @@ footer {
   }
   .content_wrappers_wrapper_title {
     margin-top: 50px;
+  }
+  .statics {
+    display: flex;
+    flex-direction: column;
+  }
+  .statics_item:nth-child(2) {
+    padding-left: 183px;
+  }
+  .promo_title {
+    font-size: 23px;
+    line-height: 27px;
+  }
+  .promo_button {
+    margin-left: 50px;
+    padding: 18px 41px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer_container {
+    flex-wrap: wrap;
   }
 }
 
@@ -779,6 +799,7 @@ footer {
   .footer_container {
     flex-direction: column;
     padding: 50px 0 50px 40px;
+    width: 100%;
   }
   .footer_wrapper {
     margin-top: 20px;
