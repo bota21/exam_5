@@ -695,6 +695,16 @@ footer {
   }
 }
 
+@media screen and (max-width: 770px) {
+  .header_wrappers_wrapper_img {
+    width: 100%;
+  }
+  .plan_wrappers_wrapper {
+    max-width: 250px;
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .container {
     width: 100vw;
@@ -747,6 +757,9 @@ footer {
   .content_wrappers_wrapper_img {
     width: 300px;
   }
+  .content_wrappers_wrapper_items_item {
+    width: 80%;
+  }
   .content_wrappers_wrapper_title {
     width: 250px;
     font-size: 30px;
@@ -774,7 +787,7 @@ footer {
     padding-left: 0px;
   }
   .reviews_user_star::after {
-    left: 395px;
+    left: 365px;
   }
   .reviews_wrappers_wrapper {
     max-width: 300px;
